@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 class ItemUploader < CarrierWave::Uploader::Base
-  include Cloudinary::Carrierwave
+  include Cloudinary::CarrierWave
 
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
